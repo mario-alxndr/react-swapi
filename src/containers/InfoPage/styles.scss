@@ -1,0 +1,106 @@
+.list{
+    transition: all 0.5s ease;
+    justify-content: space-between; 
+    margin-left: 0.01%;
+    margin-right: 0.01%;
+    height: 75px;
+}
+
+.listdesc{
+    height: 125px;
+}      
+
+.list:hover{
+    background: darken(white,12%);
+    -webkit-transition: background-color 1s ease-out;
+    -moz-transition: background-color 1s ease-out;
+    -o-transition: background-color 1s ease-out;
+    transition: background-color 1s ease-out;
+}
+
+.red{
+    background: red;
+}
+.red:hover{
+    background: darken(red,12%);
+}
+
+.orange{
+    background: orange;
+}
+
+.orange:hover{
+    background: darken(orange,12%);
+}
+
+.yellow{
+    background: yellow;
+}
+
+.yellow:hover{
+    background: darken(yellow,12%);
+}
+
+.green{
+    background: green;
+}
+
+.green:hover{
+    background: darken(green,12%);
+}
+
+.blue{
+    background: blue;
+}
+
+.blue:hover{
+    background: darken(blue,12%);
+}
+
+.indigo{
+    background: indigo;
+}
+
+.indigo:hover{
+    background: darken(indigo,12%);
+}
+
+.violet{
+    background: violet;
+}
+
+.violet:hover{
+    background: darken(violet,12%);
+}
+
+
+
+
+
+
+
+.contentright{
+    margin-top:10px;
+    margin-right:15px;
+}
+
+.contentleft{
+    margin-top:10px;
+    margin-left:15px;
+}
+
+.contentdesc{
+    margin-top: 10px;
+    margin-left:15px
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background: white;
+}
+
+
+
+
